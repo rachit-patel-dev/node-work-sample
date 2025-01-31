@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2019",
+    "lib": ["es2019", "dom"],
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "incremental": true,
+    /* Base directory to resolve non-absolute module names. */
+    "baseUrl": ".",
+    "paths": {
+      "@static/types": [
+        "./src/@types/static__types"
+      ]
+    }
+  },
+  "files": [
+    "src/@types/static__types/custom.d.ts"
+  ],
+  "include": ["./src"]
+}

@@ -1,0 +1,38 @@
+<mjml>
+  <mj-include path="./_head.mjml" />
+
+  <mj-body>
+    <mj-include path="./_header.mjml" />
+
+    <mj-section>
+      <mj-column>
+        <mj-text>Hi <%= ownerName %>,</mj-text>
+
+        <mj-text>
+          A quick follow up to see if you have any questions about the payment verification process.
+        </mj-text>
+
+        <mj-text>
+          By now, your bank should have received the two micro-deposits and post those these
+          transactions. In case you still have not seen them posted on your bank statement. You can select
+          the "Add Payment Method" by navigating to the Account Settings -> Payment Information
+          section (under your name on the upper right corner after you logged in on the web).
+          Once your bank account is added successfully, Stripe will make two small deposits, and you will
+          need to enter the number of those small deposits to verify the transaction.
+        </mj-text>
+
+        <mj-button href="<%= url %>">VERIFY PAYMENT INFO</mj-button>
+
+        <mj-text>
+          If youʼre not sure how to verify your payment info, you can always contact us at
+        </mj-text>
+
+        <mj-text>
+          We can help.<br />
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./_footer.mjml" />
+  </mj-body>
+</mjml>
