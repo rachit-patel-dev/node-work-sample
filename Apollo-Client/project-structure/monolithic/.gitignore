@@ -1,0 +1,11 @@
+/node_modules
+/tmp
+/dist
+/src/config/local.json
+/src/config/quick-books-test-data.json
+*secrets.json
+.tsbuildinfo
+
+.idea/
+.DS_Store
+logs/

@@ -1,0 +1,11 @@
+# this token is very limited and it's ok to keep it there for now
+[auth]
+token=d1c35f023e6d4bc9ae35af4fa656c3e2c7cb77c878f6450aa424237c05b427c1
+
+[defaults]
+
+project=api-server
+
+[update]
+disable_check=true
+
